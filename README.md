@@ -1,10 +1,10 @@
 # DBMS-Assignment-5-6-7
 
-A beginner-friendly DBMS assignment based on **SQL Querying, Aggregation & Joins**. This assignment focuses on practicing SQL queries using the `orderdb` database, including filtering, sorting, grouping, aggregation, and different types of joins.
+A beginner-friendly DBMS assignment based on **SQL Querying, Aggregation & Joins**. This assignment focuses on practicing SQL queries using the `order_db` database, including filtering, sorting, grouping, aggregation, and different types of joins.
 
 ## Assignment Overview
 
-The assignment involves working with the `orderdb` database and performing SQL queries on customers, products, and orders.
+The assignment involves working with the `order_db` database and performing SQL queries on customers, products, and orders.
 
 The work is divided into three main parts:
 
@@ -16,37 +16,37 @@ The assignment contains a total of **18 SQL queries**, with 6 questions in each 
 
 ## Database
 
-### orderdb
+### order_db
 
 The database contains the following main tables:
 
-* **CUSTOMERS**
-* **PRODUCTS**
-* **ORDERS**
+- **CUSTOMERS**
+- **PRODUCTS**
+- **ORDERS**
 
 ## Tables and Attributes
 
 ### CUSTOMERS
 
-* `customer_id` — Primary Key
-* `customer_name`
-* `city`
-* `country`
+- `customer_id` — Primary Key
+- `customer_name`
+- `city`
+- `country`
 
 ### PRODUCTS
 
-* `product_id` — Primary Key
-* `product_name`
-* `category`
-* `price`
+- `product_id` — Primary Key
+- `product_name`
+- `category`
+- `price`
 
 ### ORDERS
 
-* `order_id` — Primary Key
-* `customer_id` — Foreign Key
-* `product_id` — Foreign Key
-* `order_date`
-* `quantity`
+- `order_id` — Primary Key
+- `customer_id` — Foreign Key
+- `product_id` — Foreign Key
+- `order_date`
+- `quantity`
 
 ## Part 1 — SQL Querying
 
@@ -91,23 +91,23 @@ The following queries were performed:
 
 The assignment covers the following SQL concepts:
 
-* SELECT
-* WHERE
-* ORDER BY
-* LIKE
-* BETWEEN
-* GROUP BY
-* HAVING
-* SUM()
-* COUNT()
-* AVG()
-* Subqueries
-* INNER JOIN
-* LEFT JOIN
-* CROSS JOIN
-* IS NULL
-* Aggregate Functions
-* Revenue Calculation
+- SELECT
+- WHERE
+- ORDER BY
+- LIKE
+- BETWEEN
+- GROUP BY
+- HAVING
+- SUM()
+- COUNT()
+- AVG()
+- Subqueries
+- INNER JOIN
+- LEFT JOIN
+- CROSS JOIN
+- IS NULL
+- Aggregate Functions
+- Revenue Calculation
 
 ## Screenshots
 
@@ -115,30 +115,30 @@ Screenshots were taken for all 18 SQL queries along with their respective output
 
 ### Part 1 — SQL Querying
 
-* `01_PartA_Q1_India_Customers.png`
-* `02_PartA_Q2_Electronics_Products.png`
-* `03_PartA_Q3_January_Orders.png`
-* `04_PartA_Q4_Non_India_Customers.png`
-* `05_PartA_Q5_Product_Search.png`
-* `06_PartA_Q6_Quantity_Orders.png`
+- `01_PartA_Q1_India_Customers.png`
+- `02_PartA_Q2_Electronics_Products.png`
+- `03_PartA_Q3_January_Orders.png`
+- `04_PartA_Q4_Non_India_Customers.png`
+- `05_PartA_Q5_Product_Search.png`
+- `06_PartA_Q6_Quantity_Orders.png`
 
 ### Part 2 — Grouping & Aggregation
 
-* `07_PartB_Q1_Product_Quantity.png`
-* `08_PartB_Q2_Customer_Order_Count.png`
-* `09_PartB_Q3_Category_Revenue.png`
-* `10_PartB_Q4_Average_Category_Price.png`
-* `11_PartB_Q5_Max_Order_Customers.png`
-* `12_PartB_Q6_Monthly_Quantity.png`
+- `07_PartB_Q1_Product_Quantity.png`
+- `08_PartB_Q2_Customer_Order_Count.png`
+- `09_PartB_Q3_Category_Revenue.png`
+- `10_PartB_Q4_Average_Category_Price.png`
+- `11_PartB_Q5_Max_Order_Customers.png`
+- `12_PartB_Q6_Monthly_Quantity.png`
 
 ### Part 3 — Joins
 
-* `13_PartC_Q1_All_Order_Details.png`
-* `14_PartC_Q2_All_Customers_Orders.png`
-* `15_PartC_Q3_All_Products_Orders.png`
-* `16_PartC_Q4_Cross_Join.png`
-* `17_PartC_Q5_Customer_Revenue.png`
-* `18_PartC_Q6_Customers_No_Orders.png`
+- `13_PartC_Q1_All_Order_Details.png`
+- `14_PartC_Q2_All_Customers_Orders.png`
+- `15_PartC_Q3_All_Products_Orders.png`
+- `16_PartC_Q4_Cross_Join.png`
+- `17_PartC_Q5_Customer_Revenue.png`
+- `18_PartC_Q6_Customers_No_Orders.png`
 
 ## SQL File
 
@@ -166,20 +166,20 @@ The final submission contains:
 
 Through this assignment, the following concepts are practiced:
 
-* Writing SQL queries
-* Filtering records using conditions
-* Sorting query results
-* Searching records using LIKE
-* Using aggregate functions
-* Grouping records using GROUP BY
-* Filtering grouped results using HAVING
-* Performing calculations using SQL
-* Understanding INNER JOIN
-* Understanding LEFT JOIN
-* Understanding CROSS JOIN
-* Working with NULL values
-* Combining data from multiple tables
-* Calculating revenue using price and quantity
+- Writing SQL queries
+- Filtering records using conditions
+- Sorting query results
+- Searching records using LIKE
+- Using aggregate functions
+- Grouping records using GROUP BY
+- Filtering grouped results using HAVING
+- Performing calculations using SQL
+- Understanding INNER JOIN
+- Understanding LEFT JOIN
+- Understanding CROSS JOIN
+- Working with NULL values
+- Combining data from multiple tables
+- Calculating revenue using price and quantity
 
 ---
 
